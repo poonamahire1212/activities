@@ -1,0 +1,2 @@
+# activities
+course activities
