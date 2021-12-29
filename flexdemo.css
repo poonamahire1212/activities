@@ -1,0 +1,39 @@
+.row1{
+    display:flex;
+    flex-direction:row;
+  /*   justify-content controls horizontal spacing */
+    justify-content:space-between;
+  /*   align items controls vertical spacing */
+    align-items:center;
+    background-color:pink;
+  }
+  .row2{
+    background-color:lightyellow;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+  }
+  .container{
+    max-width:960px;
+    margin:0 auto;
+    background:lightgray;
+  }
+  .content-row{
+    display:flex;
+    flex-direction:row;
+  }
+  .column{
+    flex:1;
+    background-color:yellowgreen;
+    margin-right:30px;
+  }
+  .column:last-child{
+    margin-right:0;
+  }
+  .column img{
+    width:100%;
+  }
+  .large{
+    flex:2;
+  }
